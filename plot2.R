@@ -1,4 +1,5 @@
 #plot2.R
+source('./getConsumptionDataSubset.R')
 dfr <- getConsumptionDataSubset()
 
 doPlot2 <- function(){ # we call this 2x so functionalize it.

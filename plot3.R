@@ -1,4 +1,5 @@
 #plot3.R
+source('./getConsumptionDataSubset.R')
 dfr <- getConsumptionDataSubset()
 
 doPlot3 <- function(){ # we call this 2x so functionalize it.
@@ -32,6 +33,6 @@ doPlot3()
 # http://blog.revolutionanalytics.com/2009/01/10-tips-for-making-your-r-graphics-look-their-best.html
 # It suggests:
 png(file="./plot3.png",width=480,height=480)
-doPlot1()
+doPlot3()
 
 dev.off()

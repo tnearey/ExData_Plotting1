@@ -1,4 +1,5 @@
 #plot3.R
+source('./getConsumptionDataSubset.R')
 dfr <- getConsumptionDataSubset()
 
 # plot 4a is same as plot2
@@ -16,7 +17,7 @@ doPlot4b=function(){
        main=""
   )
 }
-doPlot3 <- function(){ #  This is 4c
+doPlot3 <- function(){ #  This is also 4c
   plot(dfr$DateTime,dfr$Sub_metering_1,type='l',
        ylab="Energy sub metering",
        xlab='',
