@@ -1,3 +1,13 @@
+
+### Notes from student: ###
+In addition to the files required by the assignment there are two other files in this repository:  
+
+1) `getConsumptionDataSubset.R`. This contains the helper function `getConsumptionDataSubset()` that (if necessary) reads the file `household_power_consumption.txt` from a sister directory, subsets, and formats  the data and stores the file `consumptionDataSubset.RData` below. If that file already exists the function simply loads the file. In either case it returns an appropriately formatted subset of the data in a data frame.
+
+2) `consumptionDataSubset.RData` is an apropriately formatted and substetted file that is created by `getConsumptionDataSubset.R`
+
+(Note also:The large  file household_power_consumption.txt is not included in the git repository.)
+
 ## Introduction
 
 This assignment uses data from
@@ -89,26 +99,25 @@ GitHub so that the GitHub version of your repository is up to
 date. There should be four PNG files and four R code files.
 
 
-The four plots that you will need to construct are shown below. 
+The four plots that you will need to construct are shown below.
 
 
 ### Plot 1
 
 
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
+![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png)
 
 
 ### Plot 2
 
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
+![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png)
 
 
 ### Plot 3
 
-![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png) 
+![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png)
 
 
 ### Plot 4
 
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
-
+![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png)
